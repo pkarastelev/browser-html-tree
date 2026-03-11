@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "HTML Tree",
+  "version": "2.0",
+  "description": "Kopiert die HTML-Struktur der aktuellen Seite in die Zwischenablage",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "HTML Tree"
+  },
+  "devtools_page": "devtools.html"
+}
